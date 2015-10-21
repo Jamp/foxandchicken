@@ -1,0 +1,23 @@
+{
+  "name": "foxandchicken",
+  "version": "\"0.0.1\"",
+  "homepage": "https://github.com/Jamp/foxandchicken",
+  "authors": [
+    "Jaro Marval <jampgold@gmail.com>"
+  ],
+  "description": "Juego de Web del Zorro y la Gallina desarrollado con Node",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4"
+  }
+}

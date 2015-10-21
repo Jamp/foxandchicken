@@ -1,8 +1,36 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+#ficha {
+    display: inline-block;
+    z-index: 100;
+}
+
+.posicion {
+    background-color: #999;
+    border-radius: 20px;
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    position: absolute;
+}
+
+#p0-0{
+    top: 555px;
+    left: 175px;
+}
+
+#p0-1{
+    top: 555px;
+    left: 255px;
+}
+
+#p0-2{
+    top: 555px;
+    left: 335px;
 }

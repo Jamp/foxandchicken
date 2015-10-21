@@ -1,10 +1,10 @@
 {
   "name": "foxandchicken",
   "version": "0.0.1",
-  "description": "Juego de Web del Zorro y la Gallina desarrollado con Node",
+  "description": "Juego de Web del Zorro y la Gallina desarrollado con NodeJS",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
