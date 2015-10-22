@@ -2,24 +2,19 @@ extends layout
 
 block content
     h1= title
-    img(src='images/tablero.png',width='512px',height='512px')
-    div#ficha
-        img(src='images/chicken.jpg',width='60px',height='60px')
+    div#tablero
+        img(src='images/tablero.png',width='512px',height='512px')
+    div#fichas
+        
 
-    div#p0-0.posicion
-    div#p0-1.posicion
-    div#p0-2.posicion
-    div#p1-0.posicion
-    div#p1-1.posicion
-    div#p1-2.posicion
 
     script(src='lib/jquery/dist/jquery.min.js')
-
     script(src='lib/jquery-ui/ui/core.js')
     script(src='lib/jquery-ui/ui/widget.js')
     script(src='lib/jquery-ui/ui/mouse.js')
     script(src='lib/jquery-ui/ui/position.js')
-
     script(src='lib/jquery-ui/ui/draggable.js')
     script(src='lib/jquery-ui/ui/droppable.js')
+    script(src='javascripts/tablero.js')
+    script(src='javascripts/gallinas.js')
     script(src='javascripts/juego.js')
