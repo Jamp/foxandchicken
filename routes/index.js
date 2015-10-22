@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/juego', function(req, res, next) {
-  res.render('juego', { title: 'Juego' });
+  res.render('juego', { title: 'FIREWALL' });
 });
 
 

@@ -6,21 +6,26 @@ a {
   color: #00B7FF;
 }
 
-#ficha {
+.ficha {
     display: inline-block;
     z-index: 100;
     
 }
-
-#ficha img {
+.ficha img {
+    height: 35px;
+    width: 35px;
+}
+.zorro {
+    display: inline-block;
+    z-index: 200;
+}
+.zorro img {
     height: 35px;
     width: 35px;
 }
 
-
-
 .posicion {
-    background-color: rgba(255, 0, 0, 0.2);
+    /*background-color: rgba(255, 0, 0, 0.0);*/
     border-radius: 35px;
     display: inline-block;
     min-height: 35px;
@@ -28,17 +33,3 @@ a {
     position: absolute;
 }
 
-/*#p0-0{
-    top: 555px;
-    left: 175px;
-}
-
-#p0-1{
-    top: 555px;
-    left: 255px;
-}
-
-#p0-2{
-    top: 555px;
-    left: 335px;
-}*/

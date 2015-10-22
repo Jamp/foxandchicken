@@ -1,7 +1,8 @@
-function dibujaTablero(){
+function dibujaTablero(posiciones){
 	
 	var top = 548;
 	var diferencia = 80;
+	
 
 	for (var x = 0; x < 7; x++) {
 		left = 168;		
@@ -12,14 +13,17 @@ function dibujaTablero(){
 		}
 
 		for (var y = 0; y < z; y++) {			
-			$("#tablero").append("<div class='posicion' id='p"+x+"-"+y+"' ></div>");
+			$("#tablero").append("<div class='posicion' id='p"+x+"-"+y+"' >"+x+"-"+y+"</div>");
 			$("#p"+x+"-"+y).offset({
 				top:top,
 				left:left
 			});
 			left = left + diferencia;
+
+			posiciones[x+"-"+y]=0;
 		}
 		top = top - diferencia;
 	}
+	console.log(posiciones)
 	
 };
