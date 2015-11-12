@@ -4,6 +4,8 @@ var router = express.Router();
 
 var grupo = 'juego';
 
+
+
 router.get('/', function(req, res, next) {
     res.render('index', { title: 'Express' });
 });
